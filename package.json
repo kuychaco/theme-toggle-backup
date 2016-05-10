@@ -1,0 +1,31 @@
+{
+  "name": "theme-toggle",
+  "main": "./lib/theme-toggle",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/theme-toggle",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "darkThemes": {
+      "type": "array",
+      "default": ["one-dark-ui", "one-dark-syntax"],
+      "items": {
+        "type": "string"
+      }
+    },
+    "lightThemes": {
+      "type": "array",
+      "default": ["one-light-ui", "one-light-syntax"],
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
